@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "frontend",
+    "clientFramework": "vue",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "creationTimestamp": 1744357861346,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.9.0",
+    "languages": ["en", "fr"],
+    "microfrontend": null,
+    "microfrontends": [],
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "skipCommitHook": true,
+    "skipServer": true,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}
