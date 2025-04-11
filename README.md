@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # frontend
 
 This application was generated using JHipster 8.9.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.9.0](https://www.jhipster.tech/documentation-archive/v8.9.0).
@@ -92,3 +93,6 @@ Unit tests are run by [Vitest][]. They're located near components and can be run
 [NPM]: https://www.npmjs.com/
 [Leaflet]: https://leafletjs.com/
 [DefinitelyTyped]: https://definitelytyped.org/
+=======
+# sdi-frontend
+>>>>>>> 0a09fa7b36955aea81875e7a5d5b2db2936e67db
