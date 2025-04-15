@@ -1,13 +1,39 @@
 {
   "global": {
-    "title": "Frontend",
+    "title": "Sdi",
     "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
     "menu": {
       "home": "Accueil",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entités",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "deployementType": "Deployement Type",
+        "customisationLevel": "Customisation Level",
+        "product": "Product",
+        "productLine": "Product Line",
+        "module": "Module",
+        "domaine": "Domaine",
+        "feature": "Feature",
+        "productDeployement": "Product Deployement",
+        "moduleDeployement": "Module Deployement",
+        "featureDeployement": "Feature Deployement",
+        "region": "Region",
+        "clientCertification": "Client Certification",
+        "clientSize": "Client Size",
+        "client": "Client",
+        "clientType": "Client Type",
+        "certification": "Certification",
+        "clientEvent": "Client Event",
+        "clientEventType": "Client Event Type",
+        "country": "Country",
+        "ha": "HA",
+        "db": "DB",
+        "host": "HOST",
+        "os": "OS",
+        "hsm": "HSM",
+        "applicationServer": "Application Server",
+        "actionRequest": "Action Request"
       },
       "account": {
         "main": "Compte",
@@ -42,7 +68,9 @@
       "confirmpassword.label": "Confirmation du nouveau mot de passe",
       "confirmpassword.placeholder": "Confirmation du nouveau mot de passe",
       "email.label": "Email",
-      "email.placeholder": "Votre email"
+      "email.placeholder": "Votre email",
+      "profile.label" : "Profile",
+      "profile.select" : "Choisir un profile"
     },
     "messages": {
       "info": {

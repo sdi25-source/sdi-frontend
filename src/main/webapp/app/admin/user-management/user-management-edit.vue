@@ -8,7 +8,6 @@
             <label v-text="t$('global.field.id')"></label>
             <input type="text" class="form-control" name="id" v-model="userAccount.id" readonly />
           </div>
-
           <div class="form-group">
             <label class="form-control-label" v-text="t$('userManagement.login')"></label>
             <input
@@ -18,16 +17,13 @@
               :class="{ valid: !v$.userAccount.login.$invalid, invalid: v$.userAccount.login.$invalid }"
               v-model="v$.userAccount.login.$model"
             />
-
             <div v-if="v$.userAccount.login.$anyDirty && v$.userAccount.login.$invalid">
               <small class="form-text text-danger" v-if="!v$.userAccount.login.required" v-text="t$('entity.validation.required')"></small>
-
               <small
                 class="form-text text-danger"
                 v-if="!v$.userAccount.login.maxLength"
                 v-text="t$('entity.validation.maxlength', { max: 50 })"
               ></small>
-
               <small
                 class="form-text text-danger"
                 v-if="!v$.userAccount.login.pattern"
@@ -35,6 +31,7 @@
               ></small>
             </div>
           </div>
+
           <div class="form-group">
             <label class="form-control-label" for="firstName" v-text="t$('userManagement.firstName')"></label>
             <input
@@ -54,6 +51,7 @@
               ></small>
             </div>
           </div>
+
           <div class="form-group">
             <label class="form-control-label" for="lastName" v-text="t$('userManagement.lastName')"></label>
             <input
@@ -73,6 +71,7 @@
               ></small>
             </div>
           </div>
+
           <div class="form-group">
             <label class="form-control-label" for="email" v-text="t$('userManagement.email')"></label>
             <input
@@ -109,6 +108,7 @@
               ></small>
             </div>
           </div>
+
           <div class="form-check">
             <label class="form-check-label" for="activated">
               <input
@@ -132,7 +132,9 @@
           <div class="form-group">
             <label v-text="t$('userManagement.profiles')"></label>
             <select class="form-control" multiple name="authority" v-model="userAccount.authorities">
-              <option v-for="authority of authorities" :value="authority" :key="authority">{{ authority }}</option>
+              <option v-for="authority in authorities" :value="authority" :key="authority">
+                {{ authority.replace('ROLE_', '') }}
+              </option>
             </select>
           </div>
         </div>

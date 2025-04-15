@@ -1,13 +1,39 @@
 {
   "global": {
-    "title": "Frontend",
+    "title": "Sdi",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
       "home": "Home",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "deployementType": "Deployement Type",
+        "customisationLevel": "Customisation Level",
+        "product": "Product",
+        "productLine": "Product Line",
+        "module": "Module",
+        "domaine": "Domaine",
+        "feature": "Feature",
+        "productDeployement": "Product Deployement",
+        "moduleDeployement": "Module Deployement",
+        "featureDeployement": "Feature Deployement",
+        "region": "Region",
+        "clientCertification": "Client Certification",
+        "clientSize": "Client Size",
+        "client": "Client",
+        "clientType": "Client Type",
+        "certification": "Certification",
+        "clientEvent": "Client Event",
+        "clientEventType": "Client Event Type",
+        "country": "Country",
+        "ha": "HA",
+        "db": "DB",
+        "host": "HOST",
+        "os": "OS",
+        "hsm": "HSM",
+        "applicationServer": "Application Server",
+        "actionRequest": "Action Request"
       },
       "account": {
         "main": "Account",
@@ -42,7 +68,10 @@
       "confirmpassword.label": "New password confirmation",
       "confirmpassword.placeholder": "Confirm the new password",
       "email.label": "Email",
-      "email.placeholder": "Your email"
+      "email.placeholder": "Your email",
+      "profile.label" : "Profile",
+      "profile.select" : "Choose a profile"
+
     },
     "messages": {
       "info": {
@@ -60,6 +89,12 @@
         "dontmatch": "The password and its confirmation do not match!"
       },
       "validate": {
+        "password": {
+          "required": "the password is required.",
+          "minlength": "the password is required to be at least 4 characters.",
+          "maxlength": "the password cannot be longer than 50 characters.",
+          "strength": "Password strength:"
+        },
         "newpassword": {
           "required": "Your password is required.",
           "minlength": "Your password is required to be at least 4 characters.",

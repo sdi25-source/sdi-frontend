@@ -1,4 +1,4 @@
-import { type Ref, defineComponent, inject, ref } from 'vue';
+import { type Ref, defineComponent, inject, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useVuelidate } from '@vuelidate/core';
 import { email, maxLength, minLength, required } from '@vuelidate/validators';
@@ -115,8 +115,8 @@ export default defineComponent({
     },
 
     getToastMessageFromHeader(res: any): string {
-      return this.t$(res.headers['x-frontendapp-alert'], {
-        param: decodeURIComponent(res.headers['x-frontendapp-params'].replace(/\+/g, ' ')),
+      return this.t$(res.headers['x-sdiapp-alert'], {
+        param: decodeURIComponent(res.headers['x-sdiapp-params'].replace(/\+/g, ' ')),
       }).toString();
     },
   },

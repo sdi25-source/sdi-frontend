@@ -4,7 +4,7 @@
       <div v-if="user">
         <h2 class="jh-entity-heading">
           <span v-text="t$('userManagement.detail.title')"></span> [<strong>{{ user.login }}</strong
-          >]
+        >]
         </h2>
         <dl class="row jh-entity-details">
           <dt><span v-text="t$('userManagement.login')"></span></dt>
